@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A99B4D3-1F5A-4C58-B68B-DCA99B481F54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LogicielExcel_ALL.My.MyApplication</StartupObject>
+    <RootNamespace>LogicielExcel_ALL</RootNamespace>
+    <AssemblyName>LogicielExcel ALL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LogicielExcel ALL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LogicielExcel ALL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcierDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet24.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet25.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet26.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet27.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AcierDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AcierDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="_Soudexmetal_2009DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_Soudexmetal_2009DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_Soudexmetal_2009DataSet.vb">
+      <DependentUpon>_Soudexmetal_2009DataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AcierDataSet.xsc">
+      <DependentUpon>AcierDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet.xss">
+      <DependentUpon>AcierDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet1.xsc">
+      <DependentUpon>AcierDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet1.xss">
+      <DependentUpon>AcierDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet10.xsc">
+      <DependentUpon>AcierDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet10.xss">
+      <DependentUpon>AcierDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet11.xsc">
+      <DependentUpon>AcierDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet11.xss">
+      <DependentUpon>AcierDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet12.xsc">
+      <DependentUpon>AcierDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet12.xss">
+      <DependentUpon>AcierDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet13.xsc">
+      <DependentUpon>AcierDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet13.xss">
+      <DependentUpon>AcierDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet14.xsc">
+      <DependentUpon>AcierDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet14.xss">
+      <DependentUpon>AcierDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet15.xsc">
+      <DependentUpon>AcierDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet15.xss">
+      <DependentUpon>AcierDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet16.xsc">
+      <DependentUpon>AcierDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet16.xss">
+      <DependentUpon>AcierDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet17.xsc">
+      <DependentUpon>AcierDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet17.xss">
+      <DependentUpon>AcierDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet18.xsc">
+      <DependentUpon>AcierDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet18.xss">
+      <DependentUpon>AcierDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet19.xsc">
+      <DependentUpon>AcierDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet19.xss">
+      <DependentUpon>AcierDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet2.xsc">
+      <DependentUpon>AcierDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet2.xss">
+      <DependentUpon>AcierDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet20.xsc">
+      <DependentUpon>AcierDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet20.xss">
+      <DependentUpon>AcierDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet21.xsc">
+      <DependentUpon>AcierDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet21.xss">
+      <DependentUpon>AcierDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet22.xsc">
+      <DependentUpon>AcierDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet22.xss">
+      <DependentUpon>AcierDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet23.xsc">
+      <DependentUpon>AcierDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet23.xss">
+      <DependentUpon>AcierDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet24.xsc">
+      <DependentUpon>AcierDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet24.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet24.xss">
+      <DependentUpon>AcierDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet25.xsc">
+      <DependentUpon>AcierDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet25.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet25.xss">
+      <DependentUpon>AcierDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet26.xsc">
+      <DependentUpon>AcierDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet26.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet26.xss">
+      <DependentUpon>AcierDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet27.xsc">
+      <DependentUpon>AcierDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet27.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet27.xss">
+      <DependentUpon>AcierDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet3.xsc">
+      <DependentUpon>AcierDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet3.xss">
+      <DependentUpon>AcierDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet4.xsc">
+      <DependentUpon>AcierDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet4.xss">
+      <DependentUpon>AcierDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet5.xsc">
+      <DependentUpon>AcierDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet5.xss">
+      <DependentUpon>AcierDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet6.xsc">
+      <DependentUpon>AcierDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet6.xss">
+      <DependentUpon>AcierDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet7.xsc">
+      <DependentUpon>AcierDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet7.xss">
+      <DependentUpon>AcierDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet8.xsc">
+      <DependentUpon>AcierDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet8.xss">
+      <DependentUpon>AcierDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet9.xsc">
+      <DependentUpon>AcierDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="AcierDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AcierDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AcierDataSet9.xss">
+      <DependentUpon>AcierDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="_Soudexmetal_2009DataSet.xsc">
+      <DependentUpon>_Soudexmetal_2009DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_Soudexmetal_2009DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_Soudexmetal_2009DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_Soudexmetal_2009DataSet.xss">
+      <DependentUpon>_Soudexmetal_2009DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

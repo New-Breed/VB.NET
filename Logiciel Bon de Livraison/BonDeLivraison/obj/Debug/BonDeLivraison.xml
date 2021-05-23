@@ -1,0 +1,176 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BonDeLivraison
+</name>
+</assembly>
+<members>
+<member name="T:BonDeLivraison.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BonDeLivraison.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BonDeLivraison.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet._R_CIEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet._R_CIE_CLIENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet._R_CIERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet._R_CIE_CLIENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet._R_CIERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet._R_CIE_CLIENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.R_CIETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.R_CIE_CLIENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BonDeLivraison._Soudexmetal_2009DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BonDeLivraison._Soudexmetal_2009DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BonDeLivraison._Soudexmetal_2009DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateAll(BonDeLivraison._Soudexmetal_2009DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet1._T_CIEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet1._T_CIERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet1._T_CIERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.T_CIETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(BonDeLivraison._Soudexmetal_2009DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(BonDeLivraison._Soudexmetal_2009DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(BonDeLivraison._Soudexmetal_2009DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.TableAdapterManager.UpdateAll(BonDeLivraison._Soudexmetal_2009DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BonDeLivraison._Soudexmetal_2009DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

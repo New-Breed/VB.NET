@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Logiciel Acier
+</name>
+</assembly>
+<members>
+<member name="T:Logiciel_Acier.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:Logiciel_Acier.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:Logiciel_Acier.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:Logiciel_Acier.My.Resources.Resources.Soudex_Metal">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Logiciel_Acier.AcierDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Logiciel_Acier.AcierDataSet.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Logiciel_Acier.AcierDataSet.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Logiciel_Acier.AcierDataSet.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Logiciel_Acier.AcierDataSetTableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Logiciel_Acier.AcierDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Logiciel_Acier.AcierDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Logiciel_Acier.AcierDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Logiciel_Acier.AcierDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Logiciel_Acier.AcierDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Logiciel_Acier.AcierDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Logiciel_Acier.AcierDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Logiciel_Acier.AcierDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Logiciel_Acier.AcierDataSetTableAdapters.TableAdapterManager.UpdateAll(Logiciel_Acier.AcierDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Logiciel_Acier.AcierDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Logiciel_Acier.AcierDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

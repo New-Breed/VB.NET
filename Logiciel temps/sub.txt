@@ -1,0 +1,16 @@
+Sub egal()
+Dim ligne As Double
+Dim colonne As Double
+
+ligne = Application.WorksheetFunction.Sum(Range("C29:P29"))
+
+colonne = Application.WorksheetFunction.Sum(Range("Q7:Q28"))
+
+If ligne = colonne Then
+    Range("S29").Interior.ColorIndex = 10
+Else
+    Range("S29").Interior.ColorIndex = 3
+
+End If
+
+End Sub

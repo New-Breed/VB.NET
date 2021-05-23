@@ -1,0 +1,14 @@
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\bin\Debug\Logiciel Inventaire.exe.config
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\bin\Debug\Logiciel Inventaire.exe
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\bin\Debug\Logiciel Inventaire.pdb
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\bin\Debug\Logiciel Inventaire.xml
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel Inventaire.vbprojAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel_Inventaire.Form1.resources
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel_Inventaire.Form2.resources
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel_Inventaire.Resources.resources
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel Inventaire.vbproj.GenerateResource.cache
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel Inventaire.vbproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel Inventaire.exe
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel Inventaire.xml
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel Inventaire.pdb
+C:\Users\Utilisateur\Desktop\Logiciel Inventaire\Logiciel Inventaire\obj\Debug\Logiciel_Inventaire.Form3.resources

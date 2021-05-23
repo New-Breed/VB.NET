@@ -1,0 +1,14 @@
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\bin\x86\Debug\Logiciel Acier.exe.config
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\bin\x86\Debug\Logiciel Acier.exe
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\bin\x86\Debug\Logiciel Acier.pdb
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\bin\x86\Debug\Logiciel Acier.xml
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel Acier.vbprojAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel_Acier.Form1.resources
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel_Acier.Form2.resources
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel_Acier.Form3.resources
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel_Acier.Resources.resources
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel Acier.vbproj.GenerateResource.cache
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel Acier.vbproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel Acier.exe
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel Acier.xml
+C:\Users\Utilisateur\Desktop\LogicielAcier\LogicielAcier\obj\x86\Debug\Logiciel Acier.pdb

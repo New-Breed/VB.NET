@@ -1,0 +1,1911 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LogicielExcel ALL
+</name>
+</assembly>
+<members>
+<member name="T:LogicielExcel_ALL.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LogicielExcel_ALL.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LogicielExcel_ALL.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSetTableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSetTableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet1.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet1.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet1.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet1TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet1TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet10.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet10.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet10.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet10TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet10TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet11.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet11.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet11.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet11TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet11TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet12.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet12.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet12.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet12TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet12TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet13.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet13.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet13.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet13TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet13TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet14.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet14.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet14.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet14TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet14TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet15">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet15.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet15.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet15.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet15TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet15TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet15TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet15)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet16">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet16.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet16.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet16.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet16TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet16TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet16TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet16)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet17">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet17.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet17.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet17.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet17TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet17TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet17TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet17,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet17TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet17TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet17TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet17TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet17)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet17TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet17TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet18">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet18.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet18.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet18.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet18TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet18TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet18TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet18)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet19">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet19.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet19.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet19.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet19TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet19TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet19TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet19,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet19TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet19TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet19TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet19TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet19)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet19TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet19TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet2.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet2.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet2.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet2TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet2TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet20">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet20.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet20.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet20.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet20TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet20TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet20TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet20)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet21">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet21.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet21.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet21.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet21TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet21TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet21TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet21)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet22">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet22.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet22.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet22.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet22TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet22TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet22TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet22,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet22TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet22TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet22TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet22TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet22)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet22TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet22TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet23">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet23.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet23.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet23.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet23TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet23TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet23TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet23,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet23TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet23TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet23TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet23TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet23)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet23TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet23TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet24">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet24.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet24.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet24.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet24TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet24TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet24TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet24,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet24TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet24TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet24TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet24TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet24)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet24TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet24TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet25">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet25.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet25.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet25.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet25TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet25TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet25TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet25,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet25TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet25TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet25TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet25TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet25)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet25TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet25TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet26">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet26.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet26.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet26.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet26TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet26TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet26TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet26,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet26TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet26TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet26TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet26TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet26)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet26TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet26TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet27">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet27.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet27.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet27.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet27TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet27TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet27TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet27,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet27TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet27TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet27TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet27TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet27)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet27TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet27TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet3.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet3.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet3.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet3TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet3TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet4.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet4.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet4.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet4TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet4TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet5.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet5.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet5.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet5TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet5TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet6.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet6.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet6.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet6TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet6TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet7.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet7.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet7.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet7TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet7TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet8.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet8.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet8.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet8TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet8TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet9.AcierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet9.AcierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet9.AcierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet9TableAdapters.AcierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL.AcierDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL.AcierDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL.AcierDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL.AcierDataSet9TableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL.AcierDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL.AcierDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL._Soudexmetal_2009DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL._Soudexmetal_2009DataSet._T_CIEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL._Soudexmetal_2009DataSet._T_CIERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL._Soudexmetal_2009DataSet._T_CIERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.T_CIETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LogicielExcel_ALL._Soudexmetal_2009DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LogicielExcel_ALL._Soudexmetal_2009DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LogicielExcel_ALL._Soudexmetal_2009DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateAll(LogicielExcel_ALL._Soudexmetal_2009DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LogicielExcel_ALL._Soudexmetal_2009DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

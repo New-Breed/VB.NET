@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InventaireDataSet" targetNamespace="http://tempuri.org/InventaireDataSet.xsd" xmlns:mstns="http://tempuri.org/InventaireDataSet.xsd" xmlns="http://tempuri.org/InventaireDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="InventaireConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="InventaireConnectionString (MySettings)" PropertyReference="ApplicationSettings.Logiciel_Inventaire.My.MySettings.GlobalReference.Default.InventaireConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="InventaireTableAdapter" GeneratorDataComponentClassName="InventaireTableAdapter" Name="Inventaire" UserDataComponentName="InventaireTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventaireConnectionString (MySettings)" DbObjectName="Inventaire" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nom, Qté, Dim FROM Inventaire</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nom" DataSetColumn="Nom" />
+              <Mapping SourceColumn="Qté" DataSetColumn="Qté" />
+              <Mapping SourceColumn="Dim" DataSetColumn="Dim" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InventaireDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="InventaireDataSet" msprop:Generator_UserDSName="InventaireDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Inventaire" msprop:Generator_TableClassName="InventaireDataTable" msprop:Generator_TableVarName="tableInventaire" msprop:Generator_TablePropName="Inventaire" msprop:Generator_RowDeletingName="InventaireRowDeleting" msprop:Generator_RowChangingName="InventaireRowChanging" msprop:Generator_RowEvHandlerName="InventaireRowChangeEventHandler" msprop:Generator_RowDeletedName="InventaireRowDeleted" msprop:Generator_UserTableName="Inventaire" msprop:Generator_RowChangedName="InventaireRowChanged" msprop:Generator_RowEvArgName="InventaireRowChangeEvent" msprop:Generator_RowClassName="InventaireRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nom" msprop:Generator_ColumnVarNameInTable="columnNom" msprop:Generator_ColumnPropNameInRow="Nom" msprop:Generator_ColumnPropNameInTable="NomColumn" msprop:Generator_UserColumnName="Nom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Qté" msprop:Generator_ColumnVarNameInTable="columnQté" msprop:Generator_ColumnPropNameInRow="Qté" msprop:Generator_ColumnPropNameInTable="QtéColumn" msprop:Generator_UserColumnName="Qté" type="xs:double" minOccurs="0" />
+              <xs:element name="Dim" msprop:Generator_ColumnVarNameInTable="columnDim" msprop:Generator_ColumnPropNameInRow="_Dim" msprop:Generator_ColumnPropNameInTable="DimColumn" msprop:Generator_UserColumnName="Dim" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

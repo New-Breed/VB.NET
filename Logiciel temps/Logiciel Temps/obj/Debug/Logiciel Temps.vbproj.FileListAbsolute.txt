@@ -1,0 +1,12 @@
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\bin\Debug\Logiciel Temps.exe.config
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\bin\Debug\Logiciel Temps.exe
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\bin\Debug\Logiciel Temps.pdb
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\bin\Debug\Logiciel Temps.xml
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\obj\Debug\Logiciel Temps.vbprojAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\obj\Debug\Logiciel_Temps.Form1.resources
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\obj\Debug\Logiciel_Temps.Resources.resources
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\obj\Debug\Logiciel Temps.vbproj.GenerateResource.cache
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\obj\Debug\Logiciel Temps.vbproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\obj\Debug\Logiciel Temps.exe
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\obj\Debug\Logiciel Temps.xml
+C:\Users\Utilisateur\Desktop\Logiciel temps\Logiciel Temps\obj\Debug\Logiciel Temps.pdb

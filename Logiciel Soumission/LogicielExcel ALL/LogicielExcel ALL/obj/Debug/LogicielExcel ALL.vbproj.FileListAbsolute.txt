@@ -1,0 +1,12 @@
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\bin\Debug\LogicielExcel ALL.exe.config
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\bin\Debug\LogicielExcel ALL.exe
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\bin\Debug\LogicielExcel ALL.pdb
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\bin\Debug\LogicielExcel ALL.xml
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\obj\Debug\LogicielExcel ALL.vbprojAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\obj\Debug\LogicielExcel_ALL.Form1.resources
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\obj\Debug\LogicielExcel_ALL.Resources.resources
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\obj\Debug\LogicielExcel ALL.vbproj.GenerateResource.cache
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\obj\Debug\LogicielExcel ALL.vbproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\obj\Debug\LogicielExcel ALL.exe
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\obj\Debug\LogicielExcel ALL.xml
+C:\Users\Utilisateur\Desktop\LogicielExcel ALL\LogicielExcel ALL\obj\Debug\LogicielExcel ALL.pdb

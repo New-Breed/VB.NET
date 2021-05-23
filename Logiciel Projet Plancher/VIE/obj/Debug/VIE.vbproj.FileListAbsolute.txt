@@ -1,0 +1,12 @@
+C:\Users\Utilisateur\Desktop\VIE\VIE\bin\Debug\VIE.exe.config
+C:\Users\Utilisateur\Desktop\VIE\VIE\bin\Debug\VIE.exe
+C:\Users\Utilisateur\Desktop\VIE\VIE\bin\Debug\VIE.pdb
+C:\Users\Utilisateur\Desktop\VIE\VIE\bin\Debug\VIE.xml
+C:\Users\Utilisateur\Desktop\VIE\VIE\obj\Debug\VIE.vbprojAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\VIE\VIE\obj\Debug\VIE.Form1.resources
+C:\Users\Utilisateur\Desktop\VIE\VIE\obj\Debug\VIE.Resources.resources
+C:\Users\Utilisateur\Desktop\VIE\VIE\obj\Debug\VIE.vbproj.GenerateResource.cache
+C:\Users\Utilisateur\Desktop\VIE\VIE\obj\Debug\VIE.vbproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\VIE\VIE\obj\Debug\VIE.exe
+C:\Users\Utilisateur\Desktop\VIE\VIE\obj\Debug\VIE.xml
+C:\Users\Utilisateur\Desktop\VIE\VIE\obj\Debug\VIE.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BonDeLivraison", "BonDeLivraison.vbproj", "{8A6766EC-C4B4-45A7-85BA-4AB725EEE1BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A6766EC-C4B4-45A7-85BA-4AB725EEE1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6766EC-C4B4-45A7-85BA-4AB725EEE1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6766EC-C4B4-45A7-85BA-4AB725EEE1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6766EC-C4B4-45A7-85BA-4AB725EEE1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F3CAF8B-E8DF-4CB5-95B3-E19611A10166}
+	EndGlobalSection
+EndGlobal
